@@ -1,0 +1,28 @@
+.application-header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background: #001529;
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.application-header * {
+  color: #ffffff !important;
+  line-height: 64px !important;
+}
+
+.application-content {
+  flex: auto;
+  min-height: 0;
+  margin-top: 64px;
+  height: calc(100vh - 64px);
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover {
+  font-size: inherit;
+  color: black;
+}
